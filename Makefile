@@ -1,2 +1,2 @@
-%: %.c
-	g++ -Wall -o $* $*.c
+%: %.cpp
+	g++ -Wall -Weffc++ -Wextra -Wsign-conversion -o $* $*.cpp
